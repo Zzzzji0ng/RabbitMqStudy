@@ -1,0 +1,32 @@
+GET http://localhost:8083/topicRabbit/sendMessageByMulti
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8083/topicRabbit/sendMessageBySingle
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8083/topicRabbit/sendMessageBySingle
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8083/topicRabbit/sendMessageByName
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8083/sendMessageByName
+Accept: */*
+Cache-Control: no-cache
+
+<> 2021-05-14T061447.404.json
+
+###
+

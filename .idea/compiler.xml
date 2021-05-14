@@ -8,17 +8,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="direct-consumer" />
         <module name="direct-provider" />
+        <module name="topic-consumer" />
+        <module name="topic-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="direct-consumer" target="1.8" />
       <module name="direct-provider" target="1.8" />
+      <module name="topic-consumer" target="1.8" />
+      <module name="topic-provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="direct-consumer" options="-parameters" />
       <module name="direct-provider" options="-parameters" />
+      <module name="topic-consumer" options="-parameters" />
+      <module name="topic-provider" options="-parameters" />
     </option>
   </component>
 </project>

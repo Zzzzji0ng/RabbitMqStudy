@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/RabbitMqStudy.iml" filepath="$PROJECT_DIR$/.idea/RabbitMqStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/direct-consumer/direct-consumer.iml" filepath="$PROJECT_DIR$/direct-consumer/direct-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/direct-provider/direct-provider.iml" filepath="$PROJECT_DIR$/direct-provider/direct-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic-consumer/topic-consumer.iml" filepath="$PROJECT_DIR$/topic-consumer/topic-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic-provider/topic-provider.iml" filepath="$PROJECT_DIR$/topic-provider/topic-provider.iml" />
     </modules>
   </component>
 </project>
