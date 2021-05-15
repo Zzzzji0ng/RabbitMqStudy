@@ -1,0 +1,13 @@
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: zjy
+    password: 123456
+    # 设置了一个虚拟主机
+    virtual-host: /zjy
+    publisher-confirms: true #消息推送到交换机回调，需要在RabbitTemplate配置中实现回调处理
+    publisher-returns: true #消息推送到队列回调，需要在RabbitTemplate配置中实现回调处理
+server:
+  port: 8087

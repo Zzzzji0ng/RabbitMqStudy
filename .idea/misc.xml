@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/topic-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/fanout-provider/pom.xml" />
         <option value="$PROJECT_DIR$/fanout-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/confirm-demo/pom.xml" />
       </list>
     </option>
   </component>
