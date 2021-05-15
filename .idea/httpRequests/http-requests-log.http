@@ -1,3 +1,21 @@
+GET http://localhost:8085/fanoutRabbit
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8085/fanoutRabbit
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8084/fanoutRabbit
+Accept: */*
+Cache-Control: no-cache
+
+###
+
 GET http://localhost:8083/topicRabbit/sendMessageByMulti
 Accept: */*
 Cache-Control: no-cache

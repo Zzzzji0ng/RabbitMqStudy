@@ -1,0 +1,11 @@
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: zjy
+    password: 123456
+    # 设置了一个虚拟主机
+    virtual-host: /zjy
+server:
+  port: 8085
