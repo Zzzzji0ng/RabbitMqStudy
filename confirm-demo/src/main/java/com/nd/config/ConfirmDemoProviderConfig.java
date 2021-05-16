@@ -1,6 +1,6 @@
 package com.nd.config;
 
-import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.*;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
@@ -8,8 +8,15 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ConfirmDemoConfig {
+public class ConfirmDemoProviderConfig {
 
+    public static final String DIRECT_EXCHANGE_WITHOUT_QUEUE = "direct_exchange_without_queue";
+
+    public static final String DIRECT_EXCHANGE_WITH_QUEUE = "direct_exchange_with_queue";
+
+    public static final String DIRECT_QUEUE = "direct_queue";
+
+    public static final String DIRECT_ROUTING_KEY = "direct_routing_key";
 
     @Bean
     public RabbitTemplate createRabbitTemplate(ConnectionFactory connectionFactory) {
@@ -40,4 +47,23 @@ public class ConfirmDemoConfig {
         return rabbitTemplate;
     }
 
+    @Bean
+    public DirectExchange directExchangeWithoutQueue() {
+        return new DirectExchange(DIRECT_EXCHANGE_WITHOUT_QUEUE);
+    }
+
+    @Bean
+    public DirectExchange directExchangeWithQueue() {
+        return new DirectExchange(DIRECT_EXCHANGE_WITH_QUEUE);
+    }
+
+    @Bean
+    public Queue directQueue() {
+        return new Queue(DIRECT_QUEUE);
+    }
+
+    @Bean
+    public Binding directBinding() {
+        return BindingBuilder.bind(directQueue()).to( directExchangeWithQueue()).with(DIRECT_ROUTING_KEY);
+    }
 }

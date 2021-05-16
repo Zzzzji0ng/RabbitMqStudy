@@ -1,3 +1,69 @@
+GET http://localhost:8087/confirmDemo/sendMsgAndRejectNotRequeue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndRejectNotRequeue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndRejectRequeue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndAsk
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndAsk
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndAsk
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndAsk
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgAndAsk
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgToExchangeWithQueue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgToExchangeWithQueue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8087/confirmDemo/sendMsgToExchangeWithNotExistQueue
+Accept: */*
+Cache-Control: no-cache
+
+###
+
 GET http://localhost:8087/confirmDemo/sendMsgToNotExistExchange
 Accept: */*
 Cache-Control: no-cache
