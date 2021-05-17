@@ -1,0 +1,15 @@
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: zjy
+    password: 123456
+    # 设置了一个虚拟主机
+    virtual-host: /zjy
+    listener:
+      simple: # 这里不能用 direct ，会变成自动确认
+        acknowledge-mode: manual  # 将监听器设置为手动确认
+#        default-requeue-rejected: false #设置为不重新入队
+server:
+  port: 8088
