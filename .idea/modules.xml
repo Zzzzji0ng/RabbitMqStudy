@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/RabbitMqStudy.iml" filepath="$PROJECT_DIR$/.idea/RabbitMqStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/confirm-demo/confirm-demo.iml" filepath="$PROJECT_DIR$/confirm-demo/confirm-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/dead-letter-and-delayed-message-demo.iml" filepath="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/dead-letter-and-delayed-message-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/direct-consumer/direct-consumer.iml" filepath="$PROJECT_DIR$/direct-consumer/direct-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/direct-provider/direct-provider.iml" filepath="$PROJECT_DIR$/direct-provider/direct-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/fanout-consumer/fanout-consumer.iml" filepath="$PROJECT_DIR$/fanout-consumer/fanout-consumer.iml" />

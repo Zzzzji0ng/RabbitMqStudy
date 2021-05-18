@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="confirm-demo" />
+        <module name="dead-letter-and-delayed-message-demo" />
         <module name="direct-consumer" />
         <module name="direct-provider" />
         <module name="fanout-consumer" />
@@ -17,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="confirm-demo" target="1.8" />
+      <module name="dead-letter-and-delayed-message-demo" target="1.8" />
       <module name="direct-consumer" target="1.8" />
       <module name="direct-provider" target="1.8" />
       <module name="fanout-consumer" target="1.8" />
@@ -28,6 +30,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="confirm-demo" options="-parameters" />
+      <module name="dead-letter-and-delayed-message-demo" options="-parameters" />
       <module name="direct-consumer" options="-parameters" />
       <module name="direct-provider" options="-parameters" />
       <module name="fanout-consumer" options="-parameters" />

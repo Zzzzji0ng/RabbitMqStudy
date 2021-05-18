@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/confirm-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/direct-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/direct-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/fanout-consumer" charset="UTF-8" />
