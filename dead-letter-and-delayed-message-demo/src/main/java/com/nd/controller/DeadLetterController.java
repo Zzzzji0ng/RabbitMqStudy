@@ -24,4 +24,10 @@ public class DeadLetterController {
         rabbitTemplate.convertAndSend(DeadLetterConfig.DELETE_LETTER_BUSINESS_EXCHANGE_NAME, DeadLetterConfig.DELETE_LETTER_BUSINESS_ROUTING_KEY_2, "sendMegToQueue2");
     }
 
+    @GetMapping("/sendMsgToQueue3")
+    public void sendMsgToQueue3() {
+        for (int i = 0; i < 10; i++) {
+            rabbitTemplate.convertAndSend(DeadLetterConfig.DELETE_LETTER_BUSINESS_EXCHANGE_NAME, DeadLetterConfig.DELETE_LETTER_BUSINESS_ROUTING_KEY_3, "sendMegToQueue3 ：" + i);
+        }
+    }
 }

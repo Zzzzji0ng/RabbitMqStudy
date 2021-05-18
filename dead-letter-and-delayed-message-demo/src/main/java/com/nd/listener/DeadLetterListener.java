@@ -100,4 +100,25 @@ public class DeadLetterListener {
         // 收到死信队列2中的消息
         channel.basicAck(message.getMessageProperties().getDeliveryTag(), true);
     }
+
+
+//    @RabbitListener(queues = DeadLetterConfig.DELETE_LETTER_BUSINESS_QUEUE_NAME_3, concurrency = "1")
+    public void handleBusinessMessage3(Message message, Channel channel) throws IOException {
+        System.out.println("收到来自：" + DeadLetterConfig.DELETE_LETTER_BUSINESS_QUEUE_NAME_3 + " 的消息： " + new String(message.getBody()));
+        try {
+            System.out.println("开始睡眠模拟业务操作，导致后续消息过期直接被丢弃到死信队列");
+            Thread.sleep(5000);
+            System.out.println("结束睡眠");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+    }
+
+    @RabbitListener(queues = DeadLetterConfig.DELETE_LETTER_DEAD_LETTER_QUEUE_NAME_3)
+    public void handleDeadLetterMessage3(Message message, Channel channel) throws IOException {
+        System.out.println("收到来自：" + DeadLetterConfig.DELETE_LETTER_DEAD_LETTER_QUEUE_NAME_3 + " 的消息： " + new String(message.getBody()));
+        System.out.println("成为死信的原因：" + message.getMessageProperties().getHeaders().get("x-first-death-reason"));
+        channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+    }
 }
