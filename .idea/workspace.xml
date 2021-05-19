@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cb6e0b7-c95a-46f8-b174-0099913314d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DeadLetterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DeadLetterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/simpledemo/target/" />
     <ignored path="$PROJECT_DIR$/direct-consumer/target/" />
@@ -36,44 +35,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DeadLetterConfig.java">
+        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="109" column="60" lean-forward="true" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="55" column="64" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="64" />
-              <folding>
-                <element signature="e#6296#6297#0" expanded="true" />
-                <element signature="e#6329#6330#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="437">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/controller/DelayedLetterController.java">
+        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/listener/DelayedLetterListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
+            <state relative-caret-position="528">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
             </state>
           </provider>
         </entry>
@@ -183,9 +157,9 @@
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/controller/DeadLetterController.java" />
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/listener/DeadLetterListener.java" />
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DeadLetterConfig.java" />
-        <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java" />
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/listener/DelayedLetterListener.java" />
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/controller/DelayedLetterController.java" />
+        <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java" />
       </list>
     </option>
   </component>
@@ -269,6 +243,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nd" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RabbitMqStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RabbitMqStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="dead-letter-and-delayed-message-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nd" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +268,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621412575999" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1621412820073" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -864,14 +848,22 @@
       <option name="project" value="LOCAL" />
       <updated>1621343655560</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="延迟消息的普通方式及插件方式实现">
+      <created>1621412667054</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1621412667054</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46464000" />
+    <option name="totallyTimeSpent" value="46654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -922,7 +914,8 @@
     <MESSAGE value="死信队列" />
     <MESSAGE value="死信队列触发方式：消息过期及超过队列长度" />
     <MESSAGE value="延迟消息队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="延迟消息队列" />
+    <MESSAGE value="延迟消息的普通方式及插件方式实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="延迟消息的普通方式及插件方式实现" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1236,13 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/confirm-demo/src/main/java/com/nd/config/ConfirmDemoProviderConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1287,13 +1273,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confirm-demo/src/main/java/com/nd/config/ConfirmDemoConsumerConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.6.RELEASE/spring-amqp-2.1.6.RELEASE.jar!/org/springframework/amqp/core/CustomExchange.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/listener/DelayedLetterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/controller/DelayedLetterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1307,35 +1304,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.6.RELEASE/spring-amqp-2.1.6.RELEASE.jar!/org/springframework/amqp/core/CustomExchange.class">
+    <entry file="file://$PROJECT_DIR$/confirm-demo/src/main/java/com/nd/config/ConfirmDemoConsumerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="474">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/config/DelayedLetterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="64" />
-          <folding>
-            <element signature="e#6296#6297#0" expanded="true" />
-            <element signature="e#6329#6330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/listener/DelayedLetterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="90" selection-end-line="31" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dead-letter-and-delayed-message-demo/src/main/java/com/nd/controller/DelayedLetterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="528">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
         </state>
       </provider>
     </entry>

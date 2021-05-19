@@ -147,4 +147,11 @@ public class DelayedLetterConfig {
         return BindingBuilder.bind(delayedLetterPluginsQueue).to(delayedLetterPluginsExchange).with(DELAYED_LETTER_PLUGINS_ROUTING_KEY).noargs();
     }
 
+    /**
+     * 实现原理
+     * 上面使用 DLX + TTL 的模式，消息首先会路由到一个正常的队列，根据设置的 TTL 进入死信队列，与之不同的是通过 x-delayed-message 声明的交换机，它的消息在发布之后不会立即进入队列，先将消息保存至 Mnesia（一个分布式数据库管理系统，适合于电信和其它需要持续运行和具备软实时特性的 Erlang 应用。目前资料介绍的不是很多）
+     *
+     * 这个插件将会尝试确认消息是否过期，首先要确保消息的延迟范围是 Delay > 0, Delay =< ?ERL_MAX_T（在 Erlang 中可以被设置的范围为 (2^32)-1 毫秒），如果消息过期通过 x-delayed-type 类型标记的交换机投递至目标队列，整个消息的投递过程也就完成了。
+     */
+
 }
