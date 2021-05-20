@@ -12,6 +12,7 @@
         <module name="direct-provider" />
         <module name="fanout-consumer" />
         <module name="fanout-provider" />
+        <module name="reliable-demo" />
         <module name="topic-consumer" />
         <module name="topic-provider" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="direct-provider" target="1.8" />
       <module name="fanout-consumer" target="1.8" />
       <module name="fanout-provider" target="1.8" />
+      <module name="reliable-demo" target="1.8" />
       <module name="topic-consumer" target="1.8" />
       <module name="topic-provider" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +37,7 @@
       <module name="direct-provider" options="-parameters" />
       <module name="fanout-consumer" options="-parameters" />
       <module name="fanout-provider" options="-parameters" />
+      <module name="reliable-demo" options="-parameters" />
       <module name="topic-consumer" options="-parameters" />
       <module name="topic-provider" options="-parameters" />
     </option>

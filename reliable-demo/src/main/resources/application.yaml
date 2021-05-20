@@ -7,5 +7,6 @@ spring:
     password: 123456
     # 设置了一个虚拟主机
     virtual-host: /zjy
+    publisher-confirms: true # 开启生产者确认模式
 server:
   port: 8089

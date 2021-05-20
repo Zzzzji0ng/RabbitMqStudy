@@ -42,7 +42,7 @@ public class TransactionProviderConfig {
     /**
      * 配置启用rabbitmq事务，如果要使用事务，需要申明一个事务管理器即可
      */
-    @Bean
+//    @Bean
     public RabbitTransactionManager rabbitTransactionManager(CachingConnectionFactory connectionFactory) {
         return new RabbitTransactionManager(connectionFactory);
     }

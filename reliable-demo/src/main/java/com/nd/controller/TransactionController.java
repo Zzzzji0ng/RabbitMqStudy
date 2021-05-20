@@ -31,4 +31,17 @@ public class TransactionController {
          */
     }
 
+    @RequestMapping("sendMsgWithTransactionInNotQueue")
+    public void sendMsgWithTransactionInNotQueue(String msg) {
+        transactionProducer.sendMsg(TransactionProviderConfig.TRANSACTION_EXCHANGE_NAME, TransactionProviderConfig.TRANSACTION_ROUTING_KEY_WITHOUT_QUEUE, msg);
+        /**
+         *
+         * 即使是发送到不存在的队列，还是发送成功，不会抛出异常
+         *
+         * 调用发送消息exceptio1
+         * 正常发送消息exceptio1
+         *
+         */
+    }
+
 }

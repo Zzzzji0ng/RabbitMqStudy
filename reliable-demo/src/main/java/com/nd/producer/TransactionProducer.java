@@ -13,7 +13,7 @@ public class TransactionProducer {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    @PostConstruct
+//    @PostConstruct
     public void init() {
         // 在实例创建的时候，设置开启事务
         rabbitTemplate.setChannelTransacted(true);

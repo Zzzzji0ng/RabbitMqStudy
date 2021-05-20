@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/fanout-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/confirm-demo/pom.xml" />
         <option value="$PROJECT_DIR$/dead-letter-and-delayed-message-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/reliable-demo/pom.xml" />
       </list>
     </option>
   </component>
